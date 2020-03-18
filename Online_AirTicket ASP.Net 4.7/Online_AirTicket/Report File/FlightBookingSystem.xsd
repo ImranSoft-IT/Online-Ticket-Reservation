@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="FlightBookingSystem">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FirstName" type="xs:string" minOccurs="0" />
+                <xs:element name="FromPlace" type="xs:string" minOccurs="0" />
+                <xs:element name="Destination" type="xs:string" minOccurs="0" />
+                <xs:element name="Class_Name" type="xs:string" minOccurs="0" />
+                <xs:element name="FlightDate" type="xs:string" minOccurs="0" />
+                <xs:element name="FlightNunber" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <FlightBookingSystem>
+    <FirstName>Robiul</FirstName>
+    <FromPlace>Dhaka</FromPlace>
+    <Destination>London</Destination>
+    <Class_Name>Economy Class</Class_Name>
+    <FlightDate>06-01-2020</FlightDate>
+    <FlightNunber>BG-202</FlightNunber>
+  </FlightBookingSystem>
+  <FlightBookingSystem>
+    <FirstName>Zulhas</FirstName>
+    <FromPlace>Dhaka</FromPlace>
+    <Destination>London</Destination>
+    <Class_Name>Business Class</Class_Name>
+    <FlightDate>05-01-2020</FlightDate>
+    <FlightNunber>BG-202</FlightNunber>
+  </FlightBookingSystem>
+</NewDataSet>
